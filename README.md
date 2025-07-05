@@ -1,1 +1,1 @@
-# SmartMart-Vibhuti
+# Smart-Mart
