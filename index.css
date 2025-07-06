@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+ max-width: 1320px;
+ margin: auto;
+ padding: 20px;
+ font-family: Arial, sans-serif;
+}
+.row, .rows, .row1, .row2, .row4, .card {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin-bottom: 20px;
+}
+.col, .col1, .col2, .col3 {
+ flex: 1;
+ margin: 10px;
+ min-width: 250px;
+}
+.item {
+ border: 1px solid #ccc;
+ border-radius: 10px;
+ padding: 15px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ text-align: center;
+ background-color: #f9f9f9;
+}
+.font {
+ font-size: 16px;
+ color: #333;
+ line-height: 1.4;
+ margin: 5px;
+}
+.font1 {
+ font-size: 28px;
+ color: #000;
+ font-weight: bold;
+ margin: 5px;
+}
+.col .col1{
+    margin: 5px;
+}
+.font2 {
+ font-size: 18px;
+ color: #555;
+}
+.box, .box1 {
+ padding: 10px;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+}
+.box1 {
+ max-width: 100%;
+ height: auto;
+}
+.tag span {
+ font-weight: bold;
+ font-size: 18px;
+}
+h5 {
+ font-size: 18px;
+ color: rgb(0, 0, 0);
+}
+.col3 .item img{
+    width: 10px;
+}
+img{
+    text-align: right;
+    width: 20%;
+}
+.row{
+    width: 100%;
+    background-color: aliceblue;
+}
+.row1{
+    width: 100%;
+}
+.box{
+    width: 25%;
+}
+.rows .row2{
+    width: 100%;
+}
+.col .tag{
+    width: 100%;
+}
+.font2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ccc;
+    text-align: left;
+}
+.col .box{
+    text-align: right;
+    justify-content: space-between;
+    width: 50%;
+}
+.col3 .item{
+    width: 30%;
+}
+.row col .col1 .col .col2{
+    background-color: #bbbbbb;
+}
+.row1 {
+    background-color: white;
+}
+.row4{
+    background-color: rgb(232, 232, 232);
+}
+.rows .row2{
+    background-color: white;
+}
